@@ -2,7 +2,7 @@
 session_start();
 
 // connect to database
-$db = mysqli_connect('mysql.tooling.svc.cluster.local', 'admin', 'admin', 'tooling');
+$db = mysqli_connect('172.31.16.175', 'myuser', 'mypass1', 'tooling');
 
 // Check connection
 // if (mysqli_connect_errno()) {
